@@ -115,6 +115,8 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
+6. Should use XML to store contacts.
+7. Should use linefeed (LF) as a newline character in the contacts file. 
 
 ## Appendix D : Glossary
 
