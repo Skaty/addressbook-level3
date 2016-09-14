@@ -35,6 +35,8 @@ public abstract class Command {
     public static String getMessageForPersonListShownSummary(List<? extends ReadOnlyPerson> personsDisplayed) {
         return String.format(Messages.MESSAGE_PERSONS_LISTED_OVERVIEW, personsDisplayed.size());
     }
+    
+    public abstract boolean isMutating();
 
     /**
      * Executes the command and returns the result.
